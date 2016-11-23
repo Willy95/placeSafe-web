@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/css/place-safe.css">
 	</head>
 	<body>
 
@@ -29,21 +30,21 @@
 					<div class="flex ">
 
 						<div>
-							<span class="icon fa-car"></span>
-							<h3>Aliquam</h3>
-							<p>Suspendisse amet ullamco</p>
+							<span class="icon fa-comment"></span>
+							<h3>Conoce</h3>
+							<p>Conoce tu comunidad</p>
 						</div>
 
 						<div>
-							<span class="icon fa-camera"></span>
-							<h3>Elementum</h3>
-							<p>Class aptent taciti ad litora</p>
+							<span class="icon fa-smile-o"></span>
+							<h3>Reacciona</h3>
+							<p>Comparte lo que sientes</p>
 						</div>
 
 						<div>
-							<span class="icon fa-bug"></span>
-							<h3>Ultrices</h3>
-							<p>Nulla vitae mauris non felis</p>
+							<span class="icon fa-leaf"></span>
+							<h3>Elíge</h3>
+							<p>Elige donde estar</p>
 						</div>
 
 					</div>
@@ -61,27 +62,27 @@
 					<div class="flex flex-2">
 						<article>
 							<div class="image round">
-								<img src="images/pic01.jpg" alt="Pic 01" />
+								<center><img src="images/cel.png" class="img-responsive" id="img1"/></center>
 							</div>
 							<header>
-								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
+								<h3>Seguridad<br /> en la palma de tu mano</h3>
 							</header>
 							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
-							<footer>
+							<!-- <footer>
 								<a href="#" class="button">Learn More</a>
-							</footer>
+							</footer> -->
 						</article>
 						<article>
 							<div class="image round">
 								<img src="images/pic02.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Sed feugiat<br /> tempus adipicsing</h3>
+								<h3>Protege<br /> a los que más amas</h3>
 							</header>
 							<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
-							<footer>
+							<!-- <footer>
 								<a href="#" class="button">Learn More</a>
-							</footer>
+							</footer> -->
 						</article>
 					</div>
 				</div>
@@ -118,6 +119,24 @@
 
 				</div>
 			</footer>
+
+			<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			        <h4 class="modal-title" id=""></h4>
+			      </div>
+			      <div class="modal-body">
+
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        <button type="button" class="btn btn-primary"></button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
