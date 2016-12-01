@@ -1,0 +1,21 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.bg-placesafe{
+	background-color: #009688;
+	color: #fff;
+}
+#inicio {
+	background-image: url(/images/bg-city.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 49.5%;
+}
+
+#description {
+	padding: 20px !important;
+	padding-top: 50px !important;
+}

@@ -5,6 +5,14 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 		<link rel="stylesheet" href="/css/place-safe.css">
 	</head>
 	<body>
@@ -14,7 +22,7 @@
 				<div class="inner">
 					<!-- <a href="index.html" class="logo"><strong>PlaceSAFE - WEB</strong></a> -->
 					<nav id="nav">
-						<a href="">Iniciar Sesión</a>
+						<a href="#"  data-toggle="modal" data-target="#login-modal">Iniciar Sesión</a>
 					</nav>
 					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 				</div>
@@ -120,29 +128,53 @@
 				</div>
 			</footer>
 
-			<div class="modal fade" id="modal-login" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
-			  <div class="modal-dialog">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			        <h4 class="modal-title" id=""></h4>
-			      </div>
-			      <div class="modal-body">
 
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary"></button>
-			      </div>
-			    </div>
-			  </div>
+
+
+
+
+
+ <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+ 
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script><div class="container">
+
+<!--link sweat-->
+<link rel="stylesheet" type="text/css" href="assets/sweetalert-master/themes/twitter/twitter.css">
+
+ <script src="assets/sweetalert-master/dist/sweetalert.min.js"></script>
+   <script src="assets/sweetalert-master/dist/sweetalert.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="assets/sweetalert-master/dist/sweetalert.css">
+
+
+
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form id="login" >
+					<input type="text" id="usuario" name="user" placeholder="Username">
+					<input type="password" id="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" id="entrar" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
 			</div>
+		  </div>
+<link rel="stylesheet" type="text/css" href="assets/css/login.css">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/js/login.js"></script>
+
+
+
+
+
+
+			
 
 	</body>
 </html>

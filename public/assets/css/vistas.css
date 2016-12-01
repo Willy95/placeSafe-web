@@ -1,0 +1,24 @@
+
+.nameReaction {
+	margin-top: 10px;
+}
+
+.imgReaction {
+	width: 70% !important;
+	height: 70% !important;
+	margin-left: 15%;
+}
+
+#mapa {
+	height: 450px;
+}
+
+#content-comments{
+	height: 450px;
+	overflow-y: scroll;
+}
+
+.imgReaction-edit {
+	height: 50px;
+	width: 50px;
+}

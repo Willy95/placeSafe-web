@@ -52,7 +52,7 @@ return [
             'prefix' => '',
         ],
 
-        'mysql' => [
+        /*'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
@@ -64,7 +64,17 @@ return [
             'prefix' => '',
             'strict' => false,
             'engine' => null,
-        ],
+        ],*/
+        'mysql' => array(
+            'driver'    => 'mysql',
+            'host'      => 'www.curiosity.com.mx',
+            'database'  => 'placeSAFE',
+            'username'  => 'placesafe-user',
+            'password'  => 'roothascuriosity',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_spanish2_ci',
+            'prefix'    => '',
+        ),
 
         'pgsql' => [
             'driver' => 'pgsql',
